@@ -1,4 +1,4 @@
-class odd():
+class oddeven():
     
     def even(self, number):
         self.number = number
@@ -8,7 +8,7 @@ class odd():
         else:
             print("This number is odd number.")
             
-
+sjhfhdj
 odd_object = odd()
 
 m = int(input("Enter the number: "))
