@@ -1,4 +1,4 @@
-'''class student():
+class student():
 
     def stu1(self, name, familydetails, education, hobies): 
         self.name = name
@@ -20,8 +20,8 @@ d = str(input("Enter the hobbies of student: "))
 
 s1 = stud.display(a, b, c, d)
 print("The Student Information is: ",s1)
-'''
 
+'''
 class student():
 
     def stu1(self, name, familydetails, education, hobies):
@@ -42,4 +42,4 @@ c = str(input("Enter the education of student: "))
 d = str(input("Enter the hobbies of student: "))
 
 s1 = stud.stu1(a, b, c, d)
-print("The Student Information is: ",s1)
+print("The Student Information is: ",s1)'''
