@@ -48,6 +48,7 @@ if __name__=='__main__':
     output()'''
 
 # Python click environment variables
+'''
 import os
 @click.argument('mydir', envvar='MYDIR', type= click.Path(exists=True))
 @click.command()
@@ -58,6 +59,7 @@ def dolist(mydir):
 if __name__=='__main__':
 # Python click option tuples
 '''
+'''
 @click.command()
 @click.option('--data', required=True, type=(str, int))
 def output(data):
@@ -65,7 +67,7 @@ def output(data):
 
 if __name__=='__main__':
     output()'''
-
+'''
 # Specifying options multiple times
 '''
 @click.command()
